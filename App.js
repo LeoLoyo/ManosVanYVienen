@@ -112,3 +112,29 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+// import React from 'react';
+// import { useQuery } from '@apollo/react-hooks';
+// import { View, Text } from 'react-native';
+// import { gql } from 'apollo-boost';
+
+// function ExchangeRates() {
+//   const { loading, error, data } = useQuery(gql`
+//     {
+//       rates(currency: "USD") {
+//         currency
+//         rate
+//       }
+//     }
+//   `);
+
+//   if (loading) return <View><Text>Loading...</Text></View>;
+//   if (error) return <View><Text>Error :(</Text></View>;
+
+//   return data.rates.map(({ currency, rate }) => (
+//     <View key={currency}>
+//       <Text>{currency}: {rate}</Text>
+//       </View>
+//   ));
+// }
+
+// export default ExchangeRates
