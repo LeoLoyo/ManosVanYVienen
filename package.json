@@ -5,8 +5,14 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "patch": "npm --no-git-tag-version version patch",
+    "minor": "npm --no-git-tag-version version minor",
+    "major": "npm --no-git-tag-version version major"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "dependencies": {
     "@apollo/react-hooks": "^3.0.1",
     "apollo-boost": "^0.4.4",
@@ -16,6 +22,8 @@
     "react-native": "0.60.5",
     "react-native-gesture-handler": "^1.4.0",
     "react-native-reanimated": "^1.2.0",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^3.11.1"
   },
   "devDependencies": {
@@ -30,5 +38,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
   }
 }
