@@ -14,6 +14,8 @@ export const colors = {
   quaternary: '#D5EEE2',
   quinary: '#F2F2F2',
   senary: '#F9F9F9',
+  septenary: '#000000',
+  octonary: '#909090',
 };
 
 export const padding = {
@@ -29,10 +31,17 @@ export const fonts = {
   sm: {
     fontSize: 13,
     fontFamily,
+    color: colors.septenary,
   },
   md: {
     fontSize: 15,
     fontFamily,
+    color: colors.septenary,
+  },
+  lg: {
+    fontSize: 15,
+    fontFamily,
+    color: colors.septenary,
   },
   colors: {
     primary: {

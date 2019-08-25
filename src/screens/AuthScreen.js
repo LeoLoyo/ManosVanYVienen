@@ -39,7 +39,7 @@ const AuthScreen = props => {
         name="Sign Up"
         big
         fill
-        onPress={props.navigation.navigate('SignUp')}
+        onPress={() => props.navigation.navigate('SignUp')}
       />
     </View>
   );

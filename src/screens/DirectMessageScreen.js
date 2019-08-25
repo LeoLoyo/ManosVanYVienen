@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 class DirectMessageScreen extends React.Component {
   render() {
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <View>
         <Text>DirectMessage</Text>
       </View>
     );

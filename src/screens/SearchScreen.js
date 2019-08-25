@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 class SearchScreen extends React.Component {
   render() {
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <View>
         <Text>Search</Text>
       </View>
     );
