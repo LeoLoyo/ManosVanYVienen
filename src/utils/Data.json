@@ -1,0 +1,90 @@
+{
+    "categories":[
+        {
+            "_id": "qwertyuiop1",
+            "title": "Electrodomesticos",
+            "image":"https://www.ocu.org/-/media/ocu/images/home/vivienda%20y%20energia/equipamiento%20hogar/cambiar-electrodomesticos.jpg",
+            "backgroundColor":"#E5A400"
+        },
+        {
+            "_id": "qwertyuiop2",
+            "title": "Ropa",
+            "image":"https://www.hola.com/imagenes/estar-bien/20180312121453/ropa-contamina-medio-ambiente/0-548-821/ropa-medioambiente-t.jpg",
+            "backgroundColor":"#C65135"
+        },
+        {
+            "_id": "qwertyuiop3",
+            "title": "Libros",
+            "image":"https://www.hola.com/imagenes/estar-bien/20181009131055/libros-de-salud/0-607-970/Libros-Salud-2-m.jpg",
+            "backgroundColor":"#DD3236"
+        },
+        {
+            "_id": "qwertyuiop4",
+            "title": "Mascotas",
+            "image":"https://st3.idealista.com/cms/archivos/styles/idcms_social_tablet/public/2019-02/media/image/pets%201%20pixabay.jpg",
+            "backgroundColor":"#09ADE2"
+        }
+    ],
+    "post": [
+        {
+            "_id": "qwertyuiop4",
+            "title": "Zapatos Adidias ",
+            "donator": "Leonardo Loyo",
+            "description": "Estan como nuevo no los usos por que ya no juego",
+            "image":"https://dafitistaticco-a.akamaihd.net/p/adidas-performance-9218-843799-1-product.jpg",
+            "place": "Cabudare",
+            "request": "2 Solicitudes",
+            "likes": "2.3K",
+            "review": "Muchas gracias dios te lo pague, eres una excelente persona sigue asi mil gracias",
+            "date_created": "2019-10-01"
+        },
+        {
+            "_id": "qwertyuiop44",
+            "title": "Televisor LG 32''",
+            "donator": "Leonardo Loyo",
+            "description": "Excelentes condiciones",
+            "image":"https://media.flixcar.com/f360cdn/LG_Electronics-45715185-Medium-1100x730-01-mobile.jpg",
+            "place": "Barquisimeto",
+            "request": "4 Solicitudes",
+            "likes": "15",
+            "review": "Me compre uno nuevo",
+            "date_created": "2019-01-01"
+        },
+        {
+            "_id": "qwertyuiop4433",
+            "title": "Telefono (Reparar)",
+            "donator": "Leonardo Loyo",
+            "description": "Se debe cambiar bateria",
+            "image":"https://www.91-img.com/pictures/97744-v1-apple-iphone-7-mobile-phone-large-1.jpg",
+            "place": "Barquisimeto",
+            "request": "4 Solicitudes",
+            "likes": "15",
+            "review": "Me compre uno nuevo",
+            "date_created": "2019-01-01"
+        },
+        {
+            "_id": "qwertyuiop422",
+            "title": "Licuadora Oster ",
+            "donator": "Leonardo Loyo",
+            "description": "Casi nueva",
+            "image":"https://home.ripley.cl/store/Attachment/WOP/D122/2000342689732/2000342689732_2.jpg",
+            "place": "Acarigua",
+            "request": "1 Solicitudes",
+            "likes": "1.3K",
+            "review": "Muchas gracias dios te lo pague, eres una excelente persona sigue asi mil gracias",
+            "date_created": "2019-10-01"
+        },
+        {
+            "_id": "qwertyuiop4222",
+            "title": "El Perro Lloron",
+            "donator": "Leonardo Loyo",
+            "description": "Genial",
+            "image":"https://media2.fordogever.com/339-large_default/libro-entiende-y-educa-a-tu-perro-.jpg",
+            "place": "Baquisimeto",
+            "request": "10 Solicitudes",
+            "likes": "1.4K",
+            "review": "Muchas gracias dios te lo pague, eres una excelente persona sigue asi mil gracias",
+            "date_created": "2019-10-01"
+        }
+    ]
+}

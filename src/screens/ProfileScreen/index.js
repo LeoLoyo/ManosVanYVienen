@@ -1,14 +1,12 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, View, Text, Image} from 'react-native';
-import {Button, SliderHorizontal, SliderVertical} from '../../components';
+import {SafeAreaView, ScrollView, View, Text} from 'react-native';
+import {
+  Button,
+  SliderHorizontal,
+  SliderVertical,
+  AvatarProfile,
+} from '../../components';
 import styles from './styles';
-
-const AvatarPerfil = () => (
-  <Image
-    source={require('../../../assets/images/profile.png')}
-    style={styles.avatar}
-  />
-);
 
 const EditProfile = () => (
   <View style={styles.editProfile}>
@@ -37,7 +35,7 @@ const SectionProfile = () => {
         </View>
       </View>
       <View style={styles.containerAvatar}>
-        <AvatarPerfil />
+        <AvatarProfile />
         <EditProfile />
       </View>
       <View />
@@ -66,6 +64,7 @@ class ProfileScreen extends React.Component {
           />
           <SliderVertical
             title="Agradecimientos"
+            ItemComponent="ItemReview"
             data={[...Array(7).keys()].map(item => ({
               ...item,
               title: 'Zapatos Adidas',

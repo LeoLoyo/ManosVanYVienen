@@ -1,5 +1,6 @@
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import {buttons, fonts} from '../utils/styles';
 
 const styles = StyleSheet.create({
@@ -21,6 +22,7 @@ const Button = props => {
         props.shadow && buttons.shadow,
         props.fill ? buttons.fill : buttons.outLine,
         props.big ? buttons.big : buttons.small,
+        props.style,
       ]}>
       <Text
         style={[
@@ -28,7 +30,7 @@ const Button = props => {
           props.fill ? fonts.colors.secondary : fonts.colors.primary,
           props.big ? fonts.md : buttons.sm,
         ]}>
-        {props.name}
+        {props.icon && <Icon name={props.icon} size={20} />} {` ${props.name}`}
       </Text>
     </TouchableOpacity>
   );

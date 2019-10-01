@@ -1,6 +1,7 @@
 import {Dimensions} from 'react-native';
 
-export const fontFamily = 'Lato-Regular';
+export const fontFamilyBold = 'Lato-Bold';
+export const fontFamilyRegular = 'Lato-Regular';
 
 export const dimensions = {
   fullHeight: Dimensions.get('window').height,
@@ -30,18 +31,16 @@ export const padding = {
 export const fonts = {
   sm: {
     fontSize: 13,
-    fontFamily,
-    color: colors.septenary,
+    fontFamily: fontFamilyRegular,
   },
   md: {
     fontSize: 15,
-    fontFamily,
-    color: colors.septenary,
+    fontFamily: fontFamilyRegular,
   },
   lg: {
-    fontSize: 15,
-    fontFamily,
-    color: colors.septenary,
+    fontSize: 20,
+    fontFamily: fontFamilyBold,
+    color: colors.secondary,
   },
   colors: {
     primary: {
@@ -70,7 +69,6 @@ export const buttons = {
   outLine: {
     borderWidth: 1,
     borderColor: colors.primary,
-    backgroundColor: colors.secondary,
   },
   shadow: {
     shadowColor: colors.primary,
@@ -82,4 +80,15 @@ export const buttons = {
     shadowRadius: 3.84,
     elevation: 5,
   },
+};
+
+export const shadows = {
+  shadowColor: colors.primary,
+  shadowOffset: {
+    width: 0,
+    height: 10,
+  },
+  shadowOpacity: 0.25,
+  shadowRadius: 3.84,
+  elevation: 5,
 };

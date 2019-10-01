@@ -4,8 +4,8 @@ import AuthNavigator from './AuthNavigator';
 import {TutorialScreen} from '../screens';
 
 const AppNavigator = createSwitchNavigator({
-  Drawer: DrawerNavigator,
   Tutorial: TutorialScreen,
+  Drawer: DrawerNavigator,
   Auth: AuthNavigator,
 });
 

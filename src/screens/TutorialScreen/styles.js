@@ -3,8 +3,10 @@ import {colors} from '../../utils/styles';
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: '#F3F3F3',
+    backgroundColor: colors.secondary,
     flex: 1,
+    width: '100%',
+    height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
   },

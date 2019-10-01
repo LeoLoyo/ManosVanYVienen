@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {colors, fontFamily} from '../../utils/styles';
+import {colors, fontFamilyRegular} from '../../utils/styles';
 
 export default StyleSheet.create({
   containerInfoAvatar: {
@@ -7,7 +7,7 @@ export default StyleSheet.create({
   },
   nameProfile: {
     fontSize: 24,
-    fontFamily,
+    fontFamily: fontFamilyRegular,
     color: colors.octonary,
     marginBottom: 16,
   },
@@ -20,7 +20,7 @@ export default StyleSheet.create({
   },
   quantity: {
     fontSize: 24,
-    fontFamily,
+    fontFamily: fontFamilyRegular,
     color: colors.octonary,
     marginBottom: 16,
   },
@@ -31,27 +31,13 @@ export default StyleSheet.create({
   },
   descriptionProfile: {
     fontSize: 12,
-    fontFamily,
+    fontFamily: fontFamilyRegular,
     color: colors.octonary,
   },
   containerAvatar: {
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'center',
-  },
-  avatar: {
-    width: 90,
-    height: 90,
-    borderRadius: 45,
-    overflow: 'hidden',
-    shadowOffset: {
-      width: 0,
-      height: 10,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
-    marginBottom: 16,
   },
   editProfile: {
     width: 140,

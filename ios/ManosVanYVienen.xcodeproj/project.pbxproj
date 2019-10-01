@@ -25,6 +25,7 @@
 		65CAEB8D3F6C4B6C90361C64 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B67E293D52C44529DC788AC /* FontAwesome5_Solid.ttf */; };
 		695CBD7A26134720B216BB1B /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5554C20B35564D69A6E5689C /* Fontisto.ttf */; };
 		6CDC7FF96590438DBC32363A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 386E61A8D91A4796BB440F6E /* EvilIcons.ttf */; };
+		6DB9877432684C39A8D69308 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B1857988DE8474AA92F4E93 /* Lato-Bold.ttf */; };
 		75A60CC81C104680BC24C755 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9FFC4B65471BA823BB2B /* FontAwesome5_Regular.ttf */; };
 		792DE4A674A44602874B0471 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB12CCB4DD4A6DB3E6AE2C /* SimpleLineIcons.ttf */; };
 		7C6C22F14185F274FDDAEB18 /* libPods-ManosVanYVienenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46719D027BB6A04742DA1A79 /* libPods-ManosVanYVienenTests.a */; };
@@ -61,6 +62,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ManosVanYVienenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManosVanYVienenTests.m; sourceTree = "<group>"; };
 		017E0F6045852E40288E234D /* Pods-ManosVanYVienen-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManosVanYVienen-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ManosVanYVienen-tvOSTests/Pods-ManosVanYVienen-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		06E52C54E38C4D07A0622033 /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
 		0B04459C429C912261BB7E22 /* libPods-ManosVanYVienen-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManosVanYVienen-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* ManosVanYVienen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManosVanYVienen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ManosVanYVienen/AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		4D6465A5A71B4EDFAECD4AAB /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		5554C20B35564D69A6E5689C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		5903B26E72E31C84B2F6FC1D /* Pods-ManosVanYVienen-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManosVanYVienen-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ManosVanYVienen-tvOS/Pods-ManosVanYVienen-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5B1857988DE8474AA92F4E93 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
 		66BD9FFC4B65471BA823BB2B /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		71C2483654D5E5975DA29AB6 /* Pods-ManosVanYVienen-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManosVanYVienen-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ManosVanYVienen-tvOSTests/Pods-ManosVanYVienen-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		770DB8227A904BE68336E195 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 				E5EA2C1FEE5B44EDB248EA11 /* Octicons.ttf */,
 				2DDB12CCB4DD4A6DB3E6AE2C /* SimpleLineIcons.ttf */,
 				15687086909F49A38D81F462 /* Zocial.ttf */,
+				06E52C54E38C4D07A0622033 /* Lato-Black.ttf */,
+				5B1857988DE8474AA92F4E93 /* Lato-Bold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -414,6 +419,7 @@
 				82EEDAC2ACD04116814EA56D /* Octicons.ttf in Resources */,
 				792DE4A674A44602874B0471 /* SimpleLineIcons.ttf in Resources */,
 				F41D1EF324EB4546917A0E75 /* Zocial.ttf in Resources */,
+				6DB9877432684C39A8D69308 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

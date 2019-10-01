@@ -9,5 +9,5 @@ export {default as ProfileScreen} from './ProfileScreen';
 export {default as SearchScreen} from './SearchScreen';
 export {default as MapScreen} from './MapScreen';
 export {default as DonationScreen} from './DonationScreen';
-export {default as CategoriesScreen} from './CategoriesScreen';
+export {default as CategoryScreen} from './CategoryScreen';
 export {default as DirectMessageScreen} from './DirectMessageScreen';
